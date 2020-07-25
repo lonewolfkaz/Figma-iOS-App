@@ -32,7 +32,7 @@ struct Drafts: View {
                             Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
                         }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         }
-                        Image("1").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
+                        Image("4_1").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
                     }
                     //Card
                     VStack(alignment: .leading, spacing:12) {
@@ -46,7 +46,7 @@ struct Drafts: View {
                             Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
                         }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         }
-                        Image("2").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
+                        Image("5_1").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
                     }
                     //Card
                     VStack(alignment: .leading, spacing:12) {
@@ -60,7 +60,7 @@ struct Drafts: View {
                             Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
                         }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         }
-                        Image("3").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
+                        Image("3_2").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
                     }
                     //Card
                     VStack(alignment: .leading, spacing:12) {
@@ -74,7 +74,7 @@ struct Drafts: View {
                             Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
                         }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         }
-                        Image("4").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
+                        Image("2_1").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
                     }
                     //Card
                     VStack(alignment: .leading, spacing:12) {
@@ -88,7 +88,7 @@ struct Drafts: View {
                             Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
                         }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         }
-                        Image("5").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
+                        Image("1_1").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
                     }
                     
                     

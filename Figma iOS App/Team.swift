@@ -98,6 +98,13 @@ struct Team: View {
                 }.padding()
                 }
             .navigationBarTitle("Figma team")
+            .navigationBarItems(trailing:
+                Button(action: {
+                    print("User icon pressed...")
+                }) {
+                    Image(systemName: "bell").imageScale(.large)
+                }
+            )
         }
     }
 }
