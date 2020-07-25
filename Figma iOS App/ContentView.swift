@@ -21,7 +21,7 @@ struct ContentView: View {
                 Text("Recent")
             }
             Drafts().tabItem{
-                Image(systemName: "square.stack")
+                Image(systemName: "doc")
                 Text("Drafts")
             }
             Profile().tabItem{

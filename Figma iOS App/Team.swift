@@ -15,10 +15,10 @@ struct Team: View {
         NavigationView{
             ScrollView{
                 VStack{
-                    Picker(selection: $favoriteColor, label: Text("What is your favorite color?")) {
-                        Text("Teams").tag(0)
-                        Text("Members").tag(1)
-                        Text("Settings").tag(2)
+                    Picker(selection: $favoriteColor, label: Text("FIgma team")) {
+                        Text("Projects").tag(0)
+                        Text("Favs projects").tag(1)
+                        Text("Members").tag(2)
                     }.pickerStyle(SegmentedPickerStyle())
                 }.padding()
                 VStack(spacing:32) {
@@ -29,7 +29,7 @@ struct Team: View {
                             HStack{
                                 Text("🦢 Marketing").font(.system(size:20)).fontWeight(.regular)
                                 Spacer()
-                                Image(systemName: "star").foregroundColor(.gray)
+                                Image(systemName: "star.fill").foregroundColor(.gray)
                             }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         HStack{
                             Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
@@ -57,7 +57,7 @@ struct Team: View {
                             HStack{
                                 Text(" 🦄 Design Figma in Figma").font(.system(size:20)).fontWeight(.regular)
                                 Spacer()
-                                Image(systemName: "star").foregroundColor(.gray)
+                                Image(systemName: "star.fill").foregroundColor(.gray)
                             }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         HStack{
                             Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
@@ -71,7 +71,7 @@ struct Team: View {
                             HStack{
                                 Text("🐈 Engineering").font(.system(size:20)).fontWeight(.regular)
                                 Spacer()
-                                Image(systemName: "star").foregroundColor(.gray)
+                                Image(systemName: "star.fill").foregroundColor(.gray)
                             }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         HStack{
                             Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
@@ -85,7 +85,7 @@ struct Team: View {
                             HStack{
                                 Text("🐘 Sales").font(.system(size:20)).fontWeight(.regular)
                                 Spacer()
-                                Image(systemName: "star").foregroundColor(.gray)
+                                Image(systemName: "star.fill").foregroundColor(.gray)
                             }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         HStack{
                             Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
