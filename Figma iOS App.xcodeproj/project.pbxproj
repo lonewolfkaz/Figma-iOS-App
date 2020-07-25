@@ -17,6 +17,7 @@
 		2AF54F0224CC3D3B00F0E64B /* Recent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF54F0124CC3D3B00F0E64B /* Recent.swift */; };
 		2AF54F0424CC3D6900F0E64B /* Drafts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF54F0324CC3D6900F0E64B /* Drafts.swift */; };
 		2AF54F0824CC3FB300F0E64B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF54F0724CC3FB300F0E64B /* Profile.swift */; };
+		2AF54F0A24CC421800F0E64B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF54F0924CC421800F0E64B /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2AF54F0124CC3D3B00F0E64B /* Recent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recent.swift; sourceTree = "<group>"; };
 		2AF54F0324CC3D6900F0E64B /* Drafts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drafts.swift; sourceTree = "<group>"; };
 		2AF54F0724CC3FB300F0E64B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		2AF54F0924CC421800F0E64B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				2AF54F0124CC3D3B00F0E64B /* Recent.swift */,
 				2AF54F0324CC3D6900F0E64B /* Drafts.swift */,
 				2AF54F0724CC3FB300F0E64B /* Profile.swift */,
+				2AF54F0924CC421800F0E64B /* CardView.swift */,
 				2A57B1FE24CB6A67003FF37F /* Assets.xcassets */,
 				2A57B20324CB6A67003FF37F /* LaunchScreen.storyboard */,
 				2A57B20624CB6A67003FF37F /* Info.plist */,
@@ -164,6 +167,7 @@
 				2AF54F0824CC3FB300F0E64B /* Profile.swift in Sources */,
 				2AF54F0224CC3D3B00F0E64B /* Recent.swift in Sources */,
 				2A57B1FD24CB6A67003FF37F /* ContentView.swift in Sources */,
+				2AF54F0A24CC421800F0E64B /* CardView.swift in Sources */,
 				2AF54F0424CC3D6900F0E64B /* Drafts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
