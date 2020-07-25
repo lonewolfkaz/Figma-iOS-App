@@ -21,7 +21,7 @@ struct CardView: View {
                 Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
             }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
             }
-            Image("1").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
+            Image("rick").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
         }
     }
 }
