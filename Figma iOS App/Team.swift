@@ -17,86 +17,22 @@ struct Team: View {
                 VStack{
                     Picker(selection: $favoriteColor, label: Text("FIgma team")) {
                         Text("Projects").tag(0)
-                        Text("Favs projects").tag(1)
+                        Text("Favs projects(3)").tag(1)
                         Text("Members").tag(2)
                     }.pickerStyle(SegmentedPickerStyle())
                 }.padding()
-                VStack(spacing:32) {
-                    
-                    //Card
-                    VStack(alignment: .leading, spacing:12) {
-                        VStack(alignment: .leading, spacing:4) {
-                            HStack{
-                                Text("🦢 Marketing").font(.system(size:20)).fontWeight(.regular)
-                                Spacer()
-                                Image(systemName: "star.fill").foregroundColor(.gray)
-                            }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                        HStack{
-                            Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
-                        }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                        }
-                        Image("1").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
-                    }
-                    //Card
-                    VStack(alignment: .leading, spacing:12) {
-                        VStack(alignment: .leading, spacing:4) {
-                            HStack{
-                                Text("🐂 Business").font(.system(size:20)).fontWeight(.regular)
-                                Spacer()
-                                Image(systemName: "star").foregroundColor(.gray)
-                            }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                        HStack{
-                            Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
-                        }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                        }
-                        Image("2").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
-                    }
-                    //Card
-                    VStack(alignment: .leading, spacing:12) {
-                        VStack(alignment: .leading, spacing:4) {
-                            HStack{
-                                Text(" 🦄 Design Figma in Figma").font(.system(size:20)).fontWeight(.regular)
-                                Spacer()
-                                Image(systemName: "star.fill").foregroundColor(.gray)
-                            }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                        HStack{
-                            Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
-                        }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                        }
-                        Image("3").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
-                    }
-                    //Card
-                    VStack(alignment: .leading, spacing:12) {
-                        VStack(alignment: .leading, spacing:4) {
-                            HStack{
-                                Text("🐈 Engineering").font(.system(size:20)).fontWeight(.regular)
-                                Spacer()
-                                Image(systemName: "star.fill").foregroundColor(.gray)
-                            }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                        HStack{
-                            Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
-                        }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                        }
-                        Image("4").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
-                    }
-                    //Card
-                    VStack(alignment: .leading, spacing:12) {
-                        VStack(alignment: .leading, spacing:4) {
-                            HStack{
-                                Text("🐘 Sales").font(.system(size:20)).fontWeight(.regular)
-                                Spacer()
-                                Image(systemName: "star.fill").foregroundColor(.gray)
-                            }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                        HStack{
-                            Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
-                        }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                        }
-                        Image("5").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
+                
+                    if favoriteColor == 0{
+                        Team_projects()
+                    }else if favoriteColor == 1{
+                        Team_favProjects()
+                    }else if favoriteColor == 2{
+                        Text("Hi, World")
                     }
                     
-                    
-                }.padding()
                 }
+                
+               
             .navigationBarTitle("Figma team")
             .navigationBarItems(trailing:
                 Button(action: {
