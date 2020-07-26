@@ -99,7 +99,9 @@ struct Drafts: View {
                 Button(action: {
                     print("User icon pressed...")
                 }) {
-                    sortCards()
+                    HStack(spacing: 16) {
+                        sortCards()
+                    }
                 }
             )
         }

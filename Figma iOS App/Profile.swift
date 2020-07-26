@@ -9,8 +9,22 @@
 import SwiftUI
 
 struct Profile: View {
+    @State private var favoriteColor = 0
     var body: some View {
-        Text("Profile").font(.largeTitle)
+        
+        NavigationView{
+            ScrollView{
+                VStack {
+                    Picker(selection: $favoriteColor, label: Text("FIgma team")) {
+                        Text("Profile").tag(0)
+                        Text("Libraries").tag(1)
+                    }.pickerStyle(SegmentedPickerStyle())
+                    
+                }.padding()
+                Profile_content()
+                }
+            .navigationBarTitle("Rick Sanchez")
+        }
     }
 }
 
