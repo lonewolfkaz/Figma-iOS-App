@@ -27,7 +27,7 @@ struct Team: View {
                     }else if favoriteColor == 1{
                         Team_favProjects()
                     }else if favoriteColor == 2{
-                        Text("Hi, World")
+                        Members()
                     }
                     
                 }

@@ -23,7 +23,7 @@ struct Profile: View {
                 }.padding()
                 Profile_content()
                 }
-            .navigationBarTitle("Rick Sanchez")
+            .navigationBarTitle("Tori Nguyen")
         }
     }
 }
