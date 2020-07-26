@@ -111,7 +111,7 @@ struct Profile_content: View {
             
             VStack(alignment: .leading, spacing: 0) {
                     HStack{
-                        Image(systemName: "person").foregroundColor(.gray).padding(.horizontal, 8).frame(width: 16.0)
+                        Image(systemName: "escape").foregroundColor(.gray).padding(.horizontal, 8).frame(width: 16.0)
                        NavigationLink(destination: Drafts()){
                         Text("Log out")
                             .foregroundColor(Color.red)
