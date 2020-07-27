@@ -44,13 +44,14 @@ struct Team_projects: View {
             VStack(alignment: .leading, spacing:12) {
                 VStack(alignment: .leading, spacing:4) {
                     HStack{
-                        Text(" 🦄 Design Figma in Figma").font(.system(size:20)).fontWeight(.regular)
+                        Text("🦄 Design Figma in Figma").font(.system(size:20)).fontWeight(.regular)
                         Spacer()
                         Image(systemName: "star.fill").foregroundColor(.gray)
                     }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                 HStack{
                     Text("2312 files, updated 5 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
                 }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                    
                 }
                 Image("3").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
             }
