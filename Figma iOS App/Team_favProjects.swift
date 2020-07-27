@@ -20,7 +20,7 @@ struct Team_favProjects: View {
                         Image(systemName: "star.fill").foregroundColor(.gray)
                     }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                 HStack{
-                    Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
+                    Text("2312 files, updated 5 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
                 }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                 }
                 Image("3").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
@@ -34,7 +34,7 @@ struct Team_favProjects: View {
                         Image(systemName: "star.fill").foregroundColor(.gray)
                     }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                 HStack{
-                    Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
+                    Text("072 105 114 101 032 109 101 032 059 041 ").font(.system(size:16)).foregroundColor(.secondary)
                 }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                 }
                 Image("4").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
@@ -48,7 +48,7 @@ struct Team_favProjects: View {
                         Image(systemName: "star.fill").foregroundColor(.gray)
                     }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                 HStack{
-                    Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
+                    Text("985 files, updated 10 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
                 }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                 }
                 Image("5").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)

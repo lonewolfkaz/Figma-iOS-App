@@ -24,12 +24,12 @@ struct Drafts: View {
                     VStack(alignment: .leading, spacing:12) {
                         VStack(alignment: .leading, spacing:4) {
                             HStack{
-                                Text("🦢 Marketing").font(.system(size:20)).fontWeight(.regular)
+                                Text("🐈 MainScreens_Setting_BE").font(.system(size:20)).fontWeight(.regular)
                                 Spacer()
                                 ShowOptions()
                             }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         HStack{
-                            Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
+                            Text("072 105 114 101 032 109 101 032 059 041").font(.system(size:16)).foregroundColor(.secondary)
                         }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         }
                         Image("4_1").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
@@ -38,12 +38,12 @@ struct Drafts: View {
                     VStack(alignment: .leading, spacing:12) {
                         VStack(alignment: .leading, spacing:4) {
                             HStack{
-                                Text("🐂 Business").font(.system(size:20)).fontWeight(.regular)
+                                Text("🐘 Q1_campaign_teamManagment").font(.system(size:20)).fontWeight(.regular)
                                 Spacer()
                                 ShowOptions()
                             }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         HStack{
-                            Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
+                            Text("Edited 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
                         }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         }
                         Image("5_1").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
@@ -52,12 +52,12 @@ struct Drafts: View {
                     VStack(alignment: .leading, spacing:12) {
                         VStack(alignment: .leading, spacing:4) {
                             HStack{
-                                Text(" 🦄 Design Figma in Figma").font(.system(size:20)).fontWeight(.regular)
+                                Text("🦄 Features_git").font(.system(size:20)).fontWeight(.regular)
                                 Spacer()
                                 ShowOptions()
                             }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         HStack{
-                            Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
+                            Text("Edited 3 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
                         }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         }
                         Image("3_2").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
@@ -66,12 +66,12 @@ struct Drafts: View {
                     VStack(alignment: .leading, spacing:12) {
                         VStack(alignment: .leading, spacing:4) {
                             HStack{
-                                Text("🐈 Engineering").font(.system(size:20)).fontWeight(.regular)
+                                Text("🐂 Strategy_EU_Q4").font(.system(size:20)).fontWeight(.regular)
                                 Spacer()
                                ShowOptions()
                             }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         HStack{
-                            Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
+                            Text("Edited 5 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
                         }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         }
                         Image("2_1").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
@@ -80,12 +80,12 @@ struct Drafts: View {
                     VStack(alignment: .leading, spacing:12) {
                         VStack(alignment: .leading, spacing:4) {
                             HStack{
-                                Text("🐘 Sales").font(.system(size:20)).fontWeight(.regular)
+                                Text("🦢 DarkMode_Q2").font(.system(size:20)).fontWeight(.regular)
                                 Spacer()
                                 ShowOptions()
                             }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         HStack{
-                            Text("211 files, updated 1 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
+                            Text("Edited 8 minutes ago").font(.system(size:16)).foregroundColor(.secondary)
                         }.frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         }
                         Image("1_1").resizable().aspectRatio(contentMode:.fit).cornerRadius(16)
