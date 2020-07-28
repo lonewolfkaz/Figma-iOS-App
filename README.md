@@ -5,6 +5,8 @@
 # Figma-iOS-App
 Design. Learn. Code.
 
+[Video](https://twitter.com/lonewolfkaz/status/1287831190100205569?s=20)
+
 ## SwiftUI Resources
 [Recreate](https://recreatecode.com) - A video series about recreating popular UI with SwiftUI
 [Primitive](https://primitive.school) - Learn SwiftUI for designers
